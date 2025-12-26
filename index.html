@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MD. SABBIR RAHMAN AKASH | Portfolio & Blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              background: '#121212',
+              surface: '#1E1E1E',
+              primary: '#00A3FF',
+              secondary: '#FFC700',
+              'text-primary': '#E0E0E0',
+              'text-secondary': '#A0A0A0',
+            },
+            fontFamily: {
+              sans: ['Lato', 'sans-serif'],
+              display: ['Montserrat', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
+    <style>
+      body {
+        background-color: #121212;
+        color: #E0E0E0;
+        font-family: 'Lato', sans-serif;
+      }
+      .font-display {
+        font-family: 'Montserrat', sans-serif;
+      }
+      /* Custom Prose styles to replace @tailwindcss/typography */
+      .prose h2 { margin-top: 1.5em; margin-bottom: 0.75em; font-size: 1.875rem; font-weight: 700; color: #E0E0E0; }
+      .prose h3 { margin-top: 1.25em; margin-bottom: 0.5em; font-size: 1.5rem; font-weight: 700; color: #E0E0E0; }
+      .prose p { margin-bottom: 1em; line-height: 1.75; color: #A0A0A0;}
+      .prose a { color: #FFC700; text-decoration: underline; }
+      .prose a:hover { color: #00A3FF; }
+      .prose strong { color: #E0E0E0; }
+      .prose ul { list-style-type: disc; padding-left: 1.5em; margin-bottom: 1em; color: #A0A0A0; }
+      .prose ol { list-style-type: decimal; padding-left: 1.5em; margin-bottom: 1em; color: #A0A0A0; }
+      .prose li { margin-bottom: 0.5em; }
+      .prose code { background-color: #1E1E1E; padding: 0.2em 0.4em; margin: 0; font-size: 85%; border-radius: 3px; color: #FFC700; }
+      .prose pre { background-color: #1E1E1E; padding: 1em; border-radius: 0.5em; overflow-x: auto; margin: 1.5em 0; }
+      .prose pre code { padding: 0; background-color: transparent; color: inherit; font-size: 100%;}
+      .prose blockquote { border-left: 4px solid #00A3FF; padding-left: 1em; margin: 1.5em 0; font-style: italic; color: #A0A0A0; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.553.0",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.6",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
